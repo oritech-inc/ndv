@@ -1,15 +1,15 @@
-@include('web.council.style')
-{{-- <div class="row justify-content-center py-2">
+@include('web.council._style')
+<div class="row justify-content-center py-2">
     <div class="col-lg-12">
         <div class="section-title text-center placeholder-glow">
-            <h3 class="sub-title wow fadeInUp animate__animated animate__fadeInUp">
+            <h3 class="sub-title animate__animated animate__fadeInUp">
                 <span>Our </span>current cabinet committee.
             </h3>
         </div>
     </div>
-</div> --}}
+</div>
 <div class="page-content pt-4">
-    <div class="card mb-3">
+    <div class="card mb-3 animate__animated animate__zoomInUp animate__delay-1s animate__slow">
         <div class="content">
             <h2 class="title">Lulamile Nxeve</h2>
             <p class="copy text-bold">

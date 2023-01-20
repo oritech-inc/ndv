@@ -3,6 +3,12 @@
         background-color: darkcyan;
     }
 </style>
-<section id="contact" class="section-fs">
+
+<!-- Go To Top Link -->
+<a href="#home" class="back-to-top page-scroll rounded-pill btn-lg">
+    <i class="fa-solid fa-angle-double-up fa-1x"></i>
+</a>
+
+<footer class="footer bg-dark">
     contact
-</section>
+</footer>

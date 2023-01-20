@@ -1,13 +1,27 @@
+<?php
+    $title = ucfirst(env('APP_NAME'))." Location Community plartform";
+    // $rt = route()->getName();
+    $pg='Homepage'
+    // switch($rt) {
+    //     case 'login':
+    //         $pg = 'Sign Up';
+    //         break;
+        
+    //     default:
+    //         $pg = 'Homepage';
+    //         break;
+    // }
+?>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="">
+<meta name="description" content="A place where people from all walks of life can come together to connect, share, and grow. Our website offers a variety of features to help you connect with others who share your interests, including forums, groups, and chat rooms. You can also share your own content, such as photos, videos, and blog posts, and discover new content shared by others. Whether you're looking for support, friendship, or just a place to hang out and chat, our community website is the perfect place for you. Join today and start building connections with like-minded people from around the world.">
 <meta name="author" content="Samkelwe Samm Attwel Wakeni, and Original technologies team, Oritech, oritechno, original">
 <meta name="generator" content="alpha 0.0.1">
 <meta name="csrf-token" content="{{ csrf_token() }}">
 
-<title>Home - Ndevana Community</title>
+<title> {{ ucwords($pg)." | ".$title }}</title>
 
-<link rel="shortcut icon" href="{{ asset('logo.svg')  }}" type="image/x-icon">
+<link rel="shortcut icon" href="{{ asset('img/logo.svg')  }}" type="image/x-icon">
 
 {{-- Plugins --}}
 
@@ -32,11 +46,11 @@
 
 
 {{-- Offline --}}
-    {{-- <link rel="stylesheet" href="{{ asset('dist/bs/css/bootstrap.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('dist/bs/css/bootstrap.min.css') }}">
     <link rel="stylesheet" href="{{ asset('dist/fa/css/all.min.css') }}">
     <link rel="stylesheet" href="{{ asset('dist/an/animate.min.css') }}">
 
     <script src="{{ asset('dist/js/jquery-3.5.0.min.js') }}"></script>
     <script src="{{ asset('dist/bs/js/bootstrap.bundle.min.js') }}"></script>
     <script src="{{ asset('dist/an/wow.js') }}"></script>
-    <script src="{{ asset('dist/js/main.js') }}"></script> --}}
+    <script src="{{ asset('dist/js/main.js') }}"></script>
