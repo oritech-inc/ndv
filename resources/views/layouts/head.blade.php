@@ -1,17 +1,4 @@
-<?php
-    $title = ucfirst(env('APP_NAME'))." Location Community plartform";
-    // $rt = route()->getName();
-    $pg='Homepage'
-    // switch($rt) {
-    //     case 'login':
-    //         $pg = 'Sign Up';
-    //         break;
-        
-    //     default:
-    //         $pg = 'Homepage';
-    //         break;
-    // }
-?>
+
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="A place where people from all walks of life can come together to connect, share, and grow. Our website offers a variety of features to help you connect with others who share your interests, including forums, groups, and chat rooms. You can also share your own content, such as photos, videos, and blog posts, and discover new content shared by others. Whether you're looking for support, friendship, or just a place to hang out and chat, our community website is the perfect place for you. Join today and start building connections with like-minded people from around the world.">

@@ -1,3 +1,17 @@
+<?php
+    $title = ucfirst(env('APP_NAME'))." Location Community plartform";
+    // $rt = route()->getName();
+    $pg='Homepage'
+    // switch($rt) {
+    //     case 'login':
+    //         $pg = 'Sign Up';
+    //         break;
+        
+    //     default:
+    //         $pg = 'Homepage';
+    //         break;
+    // }
+?>
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
     <head>
@@ -17,8 +31,8 @@
             @include('layouts/nav')
 
             <main>
-                {{-- Home --}}
-                @include('pages.home')
+                {{-- Home --}}A
+                @include('pages.home')W
 
                 {{-- About --}}
                 @include('pages.about')
